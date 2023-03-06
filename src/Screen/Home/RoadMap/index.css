@@ -1,0 +1,153 @@
+/* .road_map_main {
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.road_map_img img {
+  width: 100%;
+  height: 22vh;
+}
+
+#road_map_ul {
+  color: white;
+  margin-top: -15px;
+  margin-left: -10px;
+}
+
+
+
+#road_map-main{
+  margin-top: -58%;
+  margin-left: 20%;
+}
+#raod_map_text {
+  color: rgb(0, 153, 255);
+  font-size: 22px;
+  padding-top: 10px;
+  margin-left: -12px;
+}
+
+@media (max-width: 1000px) {
+  #arrow_icon {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #card_resp_arrow {
+    margin-left: -30px;
+  }
+  #raod_map_text {
+    padding-top: 6%;
+    font-size: 15px;
+  }
+  #road_map_ul {
+    font-size: 13px;
+  }
+  #road_map-main{
+    margin-top: -70%;
+    margin-left: 20%;
+  }
+
+  .road_map_img img {
+    width: 100%;
+    height: 24vh;
+    margin-top: 5%;
+  }
+  #road_margin{
+    margin-bottom: 14%;
+  }
+  #road_margin_one{
+    margin-bottom: 20%;
+    margin-top: 8%;
+  }
+  #road_margin_two{
+    margin-bottom: 20%;
+    margin-top: -8%;
+  }
+  #road_margin_tree{
+     margin-bottom: 20%;
+    margin-top: 5%;
+  }
+  #road_margin{
+    margin-bottom: 20;
+  }
+} */
+  .border_bottom{
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+  }
+    .road_map_second{
+       justify-content: center;
+       padding-bottom: 5%;
+    }
+.road_map_img{
+  margin-bottom: 8%;
+}
+.road_map_img img{
+  width: 100%;
+  height: 22vh;
+}
+
+.raod_map_text{
+  margin-top: -47%;
+  color: white;
+  margin-left: 20%;
+}
+
+.road_map_ul{
+  color: white;
+  margin-left: 20%;
+}
+
+@media (max-width:500px)
+{
+  .raod_map_text{
+    margin-top: -39%;
+    margin-bottom: -16%;
+    color: white;
+    margin-left: 20%;
+  }
+  .road_map_ul{
+    color: white;
+    margin-left: 20%;
+    margin-top: 16%;
+    font-size: 12px;
+  }
+  .road_map_second{
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-top: 10%;
+  }
+  #res_card_one{
+    margin-top: 7%;
+    /* margin-bottom: 1%; */
+  }
+  #res_card_two
+  {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+#res_card_launching{
+  margin-top: -3%;
+}
+
+#res_card_buy{
+  margin-top: -3%;
+  margin-bottom: -2%;
+}
+
+#res_card_market{
+  margin-top: -3%;
+}
+
+  #res_card_twos{
+    margin-bottom: 12%;
+    margin-top: -3%;
+  }
+  .border_bottom{
+    /* style={{ borderBottom: "1px solid white", marginTop: "30px" }} */
+    border-bottom: 1px solid white;
+    margin-top: 20%;
+  }
+}
