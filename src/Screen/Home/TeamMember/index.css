@@ -10,14 +10,12 @@
   margin-bottom: 20px;
   height: 300px;
 }
-@media (max-width: 414px) {
-
-    .team_img img {
-        margin-top: 30px;
-        width: 100%;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        height: 400px;
-    
+@media (max-width: 580px) {
+  .team_img img {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 400px;
   }
 }

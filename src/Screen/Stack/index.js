@@ -73,9 +73,31 @@ const Stack = () => {
     document.getElementById("buttonFour2").style.display = "none";
   };
 
-  useEffect(() => {
-    window.scroll(0, 0);
-  }, []);
+
+  function cardLastTree() {
+    document.getElementById("card_last_tree_more").style.display = "block";
+    document.getElementById("card_last_tree_more").style.backgroundColor =
+    "rgba(13,16,26,0.6)";
+  document.getElementById("card_last_tree_more").style.borderBottomRightRadius =
+    "12px";
+  document.getElementById("card_last_tree_more").style.borderBottomLeftRadius = "12px";
+  document.getElementById("btn2cardlasttree").style.display = "none";
+  document.getElementById("btn2cardlasttree1").style.display = "block";
+
+  }
+  
+  function cardLastTree1(){
+        document.getElementById("card_last_tree_more").style.display = "none";
+        document.getElementById("btn2cardlasttree").style.display = "block";
+        document.getElementById("btn2cardlasttree1").style.display = "none";
+ 
+  }
+
+
+
+  // useEffect(() => {
+  //   window.scroll(0, 0);
+  // }, []);
 
   return (
     <div>
@@ -116,9 +138,9 @@ const Stack = () => {
                   Early Panalty
                 </p>
               </Grid>
-              <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
-                <p style={{ color: "white", paddingTop: "15px" }}>
+              <Grid item lg={0.5} md={0.5} sm={2} xs={1} id='stack_earn'></Grid>
+              <Grid item lg={6.4} sm={5} xs={4}>
+                <p className='stack_p'>
                   Stack And Earn &ZAX
                 </p>
                 <p
@@ -129,7 +151,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  104890.00<br></br>9%
                 </p>
 
                 <p
@@ -187,7 +209,7 @@ const Stack = () => {
                   </p>
                 </Grid>
                 <Grid item lg={0.5}></Grid>
-                <Grid item lg={4.4}>
+                <Grid item lg={4.4} id='stack_earn'>
                   <p
                     style={{
                       textAlign: "end",
@@ -196,7 +218,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    23400.00
+                    20.00000
                   </p>
 
                   <p
@@ -207,7 +229,7 @@ const Stack = () => {
                       marginTop: "50px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
 
                   <p
@@ -217,7 +239,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
                 </Grid>
 
@@ -274,7 +296,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
+              <Grid item lg={6.4}  id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -286,7 +308,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  315000.00<br></br>18%
                 </p>
 
                 <p
@@ -296,7 +318,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  100 Days
+                  600 Days
                 </p>
 
                 <p
@@ -376,7 +398,7 @@ const Stack = () => {
                     </p>
                   </Grid>
                   <Grid item lg={0.5}></Grid>
-                  <Grid item lg={4.4}>
+                  <Grid item lg={4.4}  id='stack_earn'>
                     <p
                       style={{
                         textAlign: "end",
@@ -385,7 +407,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      23400.00
+                      20.00000
                     </p>
 
                     <p
@@ -396,7 +418,7 @@ const Stack = () => {
                         marginTop: "50px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
 
                     <p
@@ -406,7 +428,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
                   </Grid>
                   <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -463,19 +485,19 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6}>
-                <p style={{ color: "white", paddingTop: "15px" }}>
+              <Grid item lg={6.5}  id='stack_earn'>
+                <p style={{ color: "white", paddingTop: "15px" }} >
                   Stack And Earn &ZAX
                 </p>
                 <p
                   style={{
                     textAlign: "end",
                     color: "white",
-                    marginTop: "35px",
+                    marginTop: "33px",
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  209990.00<br></br>15%
                 </p>
 
                 <p
@@ -485,7 +507,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  100 Days
+                  300 Days
                 </p>
 
                 <p
@@ -533,7 +555,7 @@ const Stack = () => {
                   </p>
                 </Grid>
                 <Grid item lg={0.5}></Grid>
-                <Grid item lg={4.4}>
+                <Grid item lg={4.4}  id='stack_earn'>
                   <p
                     style={{
                       textAlign: "end",
@@ -542,7 +564,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    23400.00
+                   10.00000
                   </p>
 
                   <p
@@ -553,7 +575,7 @@ const Stack = () => {
                       marginTop: "50px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
 
                   <p
@@ -563,7 +585,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
                 </Grid>
                 <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -625,7 +647,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
+              <Grid item lg={6.4} id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -637,7 +659,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  315000.00<br></br>18%
                 </p>
 
                 <p
@@ -647,7 +669,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  100 Days
+                  600 Days
                 </p>
 
                 <p
@@ -727,7 +749,7 @@ const Stack = () => {
                     </p>
                   </Grid>
                   <Grid item lg={0.5}></Grid>
-                  <Grid item lg={4.4}>
+                  <Grid item lg={4.4} id='stack_earn'>
                     <p
                       style={{
                         textAlign: "end",
@@ -736,7 +758,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      23400.00
+                      10.00000
                     </p>
 
                     <p
@@ -747,7 +769,7 @@ const Stack = () => {
                         marginTop: "50px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
 
                     <p
@@ -757,7 +779,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
                   </Grid>
                   <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -838,7 +860,7 @@ const Stack = () => {
                   </p>
                 </Grid>
                 <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-                <Grid item lg={6.4}>
+                <Grid item lg={6.4} id='stack_earn'>
                   <p style={{ color: "white", paddingTop: "15px" }}>
                     Stack And Earn &ZAX
                   </p>
@@ -850,7 +872,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    19045.00<br></br>9%
+                    315000.00<br></br>18%
                   </p>
 
                   <p
@@ -860,7 +882,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    100 Days
+                    600 Days
                   </p>
 
                   <p
@@ -940,7 +962,7 @@ const Stack = () => {
                       </p>
                     </Grid>
                     <Grid item lg={0.5}></Grid>
-                    <Grid item lg={4.4}>
+                    <Grid item lg={4.4} id='stack_earn'>
                       <p
                         style={{
                           textAlign: "end",
@@ -949,7 +971,7 @@ const Stack = () => {
                           paddingRight: "5px",
                         }}
                       >
-                        23400.00
+                   20.0000
                       </p>
 
                       <p
@@ -960,7 +982,7 @@ const Stack = () => {
                           marginTop: "50px",
                         }}
                       >
-                        00.00%
+                        0.00%
                       </p>
 
                       <p
@@ -970,7 +992,7 @@ const Stack = () => {
                           paddingRight: "5px",
                         }}
                       >
-                        00.00%
+                        0.00%
                       </p>
                     </Grid>
                     <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -1034,7 +1056,7 @@ const Stack = () => {
                   </p>
                 </Grid>
                 <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-                <Grid item lg={6}>
+                <Grid item lg={6.5} id='stack_earn'>
                   <p style={{ color: "white", paddingTop: "15px" }}>
                     Stack And Earn &ZAX
                   </p>
@@ -1042,11 +1064,11 @@ const Stack = () => {
                     style={{
                       textAlign: "end",
                       color: "white",
-                      marginTop: "35px",
+                      marginTop: "33px",
                       paddingRight: "5px",
                     }}
                   >
-                    19045.00<br></br>9%
+                    104980.00<br></br>9%
                   </p>
 
                   <p
@@ -1104,16 +1126,15 @@ const Stack = () => {
                     </p>
                   </Grid>
                   <Grid item lg={0.5}></Grid>
-                  <Grid item lg={4.4}>
+                  <Grid item lg={4.4} id='stack_earn'>
                     <p
                       style={{
                         textAlign: "end",
                         color: "white",
-                        // marginTop: "-5px",
                         paddingRight: "5px",
                       }}
                     >
-                      23400.00
+                  20.00000
                     </p>
 
                     <p
@@ -1124,7 +1145,7 @@ const Stack = () => {
                         marginTop: "50px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
 
                     <p
@@ -1134,7 +1155,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
                   </Grid>
                   <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -1218,7 +1239,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
+              <Grid item lg={6.4} id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -1230,7 +1251,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  315000.00<br></br>18%
                 </p>
 
                 <p
@@ -1240,7 +1261,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  100 Days
+                  600 Days
                 </p>
 
                 <p
@@ -1320,7 +1341,7 @@ const Stack = () => {
                     </p>
                   </Grid>
                   <Grid item lg={0.5}></Grid>
-                  <Grid item lg={4.4}>
+                  <Grid item lg={4.4} id='stack_earn'> 
                     <p
                       style={{
                         textAlign: "end",
@@ -1329,7 +1350,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      23400.00
+                      20.00000
                     </p>
 
                     <p
@@ -1340,7 +1361,7 @@ const Stack = () => {
                         marginTop: "50px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
 
                     <p
@@ -1350,7 +1371,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
                   </Grid>
                   <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -1413,7 +1434,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
+              <Grid item lg={6.5} id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -1425,7 +1446,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  104980.00<br></br>9%
                 </p>
 
                 <p
@@ -1482,17 +1503,16 @@ const Stack = () => {
                     With Drow Fees
                   </p>
                 </Grid>
-                <Grid item lg={0.5}></Grid>
-                <Grid item lg={4.4}>
+                <Grid item lg={0.5} ></Grid>
+                <Grid item lg={4.4} id='stack_earn'>
                   <p
                     style={{
                       textAlign: "end",
                       color: "white",
-                      // marginTop: "-5px",
                       paddingRight: "5px",
                     }}
                   >
-                    23400.00
+               20.0000
                   </p>
 
                   <p
@@ -1503,7 +1523,7 @@ const Stack = () => {
                       marginTop: "50px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
 
                   <p
@@ -1513,7 +1533,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
                 </Grid>
                 <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -1574,7 +1594,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6}>
+              <Grid item lg={6.5} id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -1586,7 +1606,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  104980.00<br></br>9%
                 </p>
 
                 <p
@@ -1644,16 +1664,15 @@ const Stack = () => {
                   </p>
                 </Grid>
                 <Grid item lg={0.5}></Grid>
-                <Grid item lg={4.4}>
+                <Grid item lg={4.4} id='stack_earn'>
                   <p
                     style={{
                       textAlign: "end",
                       color: "white",
-                      // marginTop: "-5px",
                       paddingRight: "5px",
                     }}
                   >
-                    23400.00
+                    20.00000
                   </p>
 
                   <p
@@ -1664,7 +1683,7 @@ const Stack = () => {
                       marginTop: "50px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
 
                   <p
@@ -1674,7 +1693,7 @@ const Stack = () => {
                       paddingRight: "5px",
                     }}
                   >
-                    00.00%
+                    0.00%
                   </p>
                 </Grid>
                 <Button id="test">Buy Zillion Aakkar Xo</Button>
@@ -1735,7 +1754,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4}>
+              <Grid item lg={6.4} id='stack_earn'>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -1747,7 +1766,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  19045.00<br></br>9%
+                  315000.00<br></br>18%
                 </p>
 
                 <p
@@ -1757,7 +1776,7 @@ const Stack = () => {
                     paddingRight: "5px",
                   }}
                 >
-                  100 Days
+                  600 Days
                 </p>
 
                 <p
@@ -1794,8 +1813,8 @@ const Stack = () => {
                 <Grid item lg={12} md={12} sm={12} xs={12}>
                   <div style={{ borderBottom: "1px solid white" }}></div>
                   <Button
-                    id="btn_more"
-                    // onClick={cardTwo}
+                    id="btn2cardlasttree"
+                    onClick={cardLastTree}
                     style={{
                       color: "white",
                       marginLeft: "40%",
@@ -1813,15 +1832,15 @@ const Stack = () => {
                       marginTop: "5px",
                       marginBottom: "5px",
                     }}
-                    id="btn2_more"
-                    // onClick={cardTwo2}
+                    id="btn2cardlasttree1"
+                    onClick={cardLastTree1}
                   >
                     Less
                   </Button>
                 </Grid>
               </Grid>
 
-              <div id="card_two_more" style={{ display: "none" }}>
+              <div id="card_last_tree_more" style={{ display: "none" }}>
                 <Grid container>
                   <Grid item lg={7} xs={6.5} className="card_img">
                     <p style={{ paddingLeft: "8px", color: "white" }}>
@@ -1837,16 +1856,15 @@ const Stack = () => {
                     </p>
                   </Grid>
                   <Grid item lg={0.5}></Grid>
-                  <Grid item lg={4.4}>
+                  <Grid item lg={4.4} id='stack_earn'>
                     <p
                       style={{
                         textAlign: "end",
                         color: "white",
-                        // marginTop: "-5px",
                         paddingRight: "5px",
                       }}
                     >
-                      23400.00
+               20.0000
                     </p>
 
                     <p
@@ -1857,7 +1875,7 @@ const Stack = () => {
                         marginTop: "50px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
 
                     <p
@@ -1867,7 +1885,7 @@ const Stack = () => {
                         paddingRight: "5px",
                       }}
                     >
-                      00.00%
+                      0.00%
                     </p>
                   </Grid>
                   <Button

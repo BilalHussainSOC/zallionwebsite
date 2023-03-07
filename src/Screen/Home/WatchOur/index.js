@@ -68,7 +68,7 @@ const WatchOur = () => {
                 marginBottom: "50px",
               }}
             >
-              Buy Token
+            <a href="https://pancakeswap.finance/swap?outputCurrency=0x9A2478C4036548864d96a97Fbf93f6a3341fedac" style={{textDecoration:'none',color:'white'}}> Buy Token</a>
             </Button>
           </Grid>
           <Grid item lg={1} md={1} sm={1}></Grid>

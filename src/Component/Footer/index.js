@@ -10,7 +10,7 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{backgroundColor:'white'}}>
       <Container>
         <Grid container style={{ justifyContent: "center", marginTop: "50px" }}>
           <Grid item lg={5} md={5} sm={6} xs={12} className="footer_logo">

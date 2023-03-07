@@ -46,15 +46,34 @@
   width: 100%;
   margin-bottom: 20px;
 }
+.stack_p{
+  color: white;
+  padding-top: 15px;
+}
 
-@media (max-width: 500px) {
+@media (max-width: 600px) and (min-width:420px) {
   .stact_card_one {
     height: 950px;
   }
   #test {
     background: linear-gradient(rgb(13, 14, 22), rgb(3, 66, 108));
     border-radius: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media  (max-width:410px) {
+  .stact_card_one {
+    height: 950px;
+  }
+  #test {
+    background: linear-gradient(rgb(13, 14, 22), rgb(3, 66, 108));
+    border-radius: 20px;
+  }
+  .stack_p{
+    color: white;
+    padding-top: 15px;
+    font-size: 12px;
   }
 }
 
@@ -86,5 +105,22 @@
   }
   #card_four_margin_top{
     margin-top: 10%;
+  }
+}
+
+
+@media (max-width:600px) and (min-width:100px)
+{
+  #stack_earn{
+    margin-left: 20%;
+  }
+  .stack_p{
+    color: white;
+    padding-top: 15px;
+    font-size: 13px;
+    text-align: end;
+  }
+  #btn_two {
+    margin-left: 10%;
   }
 }

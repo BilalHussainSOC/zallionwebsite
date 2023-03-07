@@ -385,7 +385,7 @@ const ZaxTokenomic = () => {
                 marginTop: "-28px",
               }}
             >
-              <Grid item lg={11} xs={8}>
+              <Grid item lg={11} xs={11}>
                 <input
                   type="text"
                   style={{

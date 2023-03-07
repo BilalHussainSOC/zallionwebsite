@@ -286,13 +286,14 @@ const RoadMap = () => {
           justifyContent: "center",
           marginTop: "5%",
           paddingBottom: "5%",
+          gap:'40px'
         }}
       >
         <Grid
           item
           lg={3.5}
           md={4.5}
-          sm={5.8}
+          sm={5.9}
           xs={11.5}
           className="road_map_img"
         >
@@ -307,40 +308,46 @@ const RoadMap = () => {
               <li>Pree Sale</li>
               <li>ZLaunch zillionxo.io </li>
               <li>Logistics services</li>
+              {/* <br></br> */}
+          
             </ul>
           </div>
         </Grid>
+
         <Grid
           item
           lg={3.5}
           md={4.5}
-          sm={5.8}
+          sm={5.4}
           xs={11.5}
           className="road_map_img"
         >
           <img src={img12} alt="" />
           <div className="road_map-main">
             <p className="raod_map_text">
-              <b>Aug-Nov - 2022</b>
+            <b>Aug-Nov - 2022</b>
+
             </p>
             <ul className="road_map_ul">
-              <li>
+            <li>
                 Fundraising plan for<br></br> Zax utility token
               </li>
               <li>
                 Blockchain integration <br></br>for zillionxo.io{" "}
               </li>
+              <br></br>
             </ul>
           </div>
         </Grid>
+
+
         <Grid
           item
           lg={3.5}
           md={4.5}
-          sm={5.8}
+          sm={5.4}
           xs={11.5}
           className="road_map_img"
-          id="res_card_one"
         >
           <img src={img12} alt="" />
           <div className="road_map-main">
@@ -348,16 +355,256 @@ const RoadMap = () => {
               <b>Dec - 2022</b>
             </p>
             <ul className="road_map_ul">
+            <li>
+                IDOs for Zax <br></br>utility token
+              </li>
+              <li>DEXs/CEXs listing </li>
+              <br></br>
+              <br></br>
+            </ul>
+          </div>
+        </Grid>
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.4}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Jan-Mar - 2023</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Launching dropping to earn</li>
+              <li>Crypto payment integration</li>
+              <li>Zax mobile wallet</li>
+              <li>DeFi staking for Zax token</li>
+              <br></br>
+            </ul>
+          </div>
+        </Grid>
+
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.7}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Apr-Jun - 2023</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>
+                Raise fund for ZAX <br></br>Governance token
+              </li>
+              <li>Launch liveStreaming platform</li>
+              <li>Onboard KOLs/Influencers</li>
               <li>
+                Prepare FGT Governance
+              </li>
+            </ul>
+          </div>
+        </Grid>
+
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.4}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Jul-Sep - 2023</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>IEO for FGT Governance<br></br> token</li>
+              <li>DeFi Staking for FGT token</li>
+              <br></br>
+              <br></br>
+            </ul>
+          </div>
+        </Grid>
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.6}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Oct-Dec - 2023</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Buy now, pay later</li>
+              <li>DeFi lending for Zax token </li>
+              <li>Zax starter</li>
+              <li>Launch full service in <br></br>Canada & UK (G7 market)</li>
+              {/* <br></br> */}
+            </ul>
+          </div>
+        </Grid>
+
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.6}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Jan-Mar - 2024</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Community group buying</li>
+              <li>Daily play-to-earn games</li>
+              <li>Shopping metaverse</li>
+              <li>Launch full services in <br></br>France & Italy 67 Market</li>
+            </ul>
+          </div>
+        </Grid>
+
+
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.8}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Apr-Jun - 2024</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Complete all main features <br></br> ready for market expansion</li>
+              <li>Develop Physical goods <br></br> NFTs marketplace</li>
+              <li>E-commerce franchising</li>
+              {/* <br></br> */}
+            </ul>
+          </div>
+        </Grid>
+
+        
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.4}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Jul-Sep - 2024</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Market expansion to SEA</li>
+              <li>Market expansion to  <br></br>South Asia </li>
+              <br></br>
+              <br></br>
+            </ul>
+          </div>
+        </Grid>
+
+        
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.4}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>Oct-Dec - 2024</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>Complete all main features <br></br> ready for market expansion</li>
+            <li>More market expansion</li>
+              <li>More operational </li>
+              <br></br>
+            </ul>
+          </div>
+        </Grid>
+{/* 
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.8}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>June-July 2022</b>
+            </p>
+            <ul className="road_map_ul">
+        
+            <li>
+                Fundraising plan for<br></br> Zax utility token
+              </li>
+              <li>
+                Blockchain integration <br></br>for zillionxo.io{" "}
+              </li>
+            </ul>
+          </div>
+        </Grid> */}
+{/* 
+        <Grid
+          item
+          lg={3.5}
+          md={4.5}
+          sm={5.8}
+          xs={11.5}
+          className="road_map_img"
+        >
+          <img src={img12} alt="" />
+          <div className="road_map-main">
+            <p className="raod_map_text">
+              <b>June-July 2022</b>
+            </p>
+            <ul className="road_map_ul">
+            <li>
                 IDOs for Zax <br></br>utility token
               </li>
               <li>DEXs/CEXs listing </li>
             </ul>
           </div>
-        </Grid>
+        </Grid> */}
+    
+
+ 
       </Grid>
 
-      <Grid container className="road_map_second">
+      {/* <Grid container className="road_map_second">
         <Grid
           item
           lg={3.5}
@@ -544,7 +791,7 @@ const RoadMap = () => {
             </ul>
           </div>
         </Grid>
-      </Grid>
+      </Grid> */}
       <div  className='border_bottom'></div>
     </div>
   );

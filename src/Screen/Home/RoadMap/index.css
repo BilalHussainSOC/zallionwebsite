@@ -80,6 +80,7 @@
     .road_map_second{
        justify-content: center;
        padding-bottom: 5%;
+       gap: 30px;
     }
 .road_map_img{
   margin-bottom: 8%;
@@ -118,6 +119,8 @@
     justify-content: center;
     padding-bottom: 5%;
     margin-top: 10%;
+    gap: 40px;
+ 
   }
   #res_card_one{
     margin-top: 7%;
