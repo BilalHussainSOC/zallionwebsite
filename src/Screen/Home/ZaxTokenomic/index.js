@@ -71,7 +71,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "rgb(29,1,116)",
                   borderRadius: "15px",
                 }}
               >
@@ -153,7 +153,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "gray",
                   borderRadius: "15px",
                 }}
               >
@@ -194,7 +194,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "rgb(255,0,0)",
                   borderRadius: "15px",
                 }}
               >
@@ -235,7 +235,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "rgb(142,129,9)",
                   borderRadius: "15px",
                 }}
               >
@@ -275,7 +275,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "rgb(1,176,63)",
                   borderRadius: "15px",
                 }}
               >
@@ -316,7 +316,7 @@ const ZaxTokenomic = () => {
                 sm={1.8}
                 xs={1.8}
                 style={{
-                  backgroundColor: "rgb(0,153,255)",
+                  backgroundColor: "rgb(255,122,0)",
                   borderRadius: "15px",
                 }}
               >
