@@ -10,8 +10,8 @@ import img8 from "../../Image/img8.png";
 import "./index.css";
 const ZaxPrice = () => {
   return (
-    <div>
-      <div className="bg_zax_price" id="price">
+    <div >
+      <div className="bg_two" id='zax_price'>
         <h1
           style={{
             textAlign: "center",
@@ -22,7 +22,7 @@ const ZaxPrice = () => {
         >
           Current Zax Price
         </h1>
-        <Container>
+        <Container >
           <Grid container className="zax_price_text">
             <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
               <img src={img2} className="zax_price_img" />
@@ -86,7 +86,7 @@ const ZaxPrice = () => {
               xs={11.7}
               className="zillion_aakar_text"
             >
-              <h1>What is ZILLION AAKAR XO (ZAX)?</h1>
+              <h1>What is <strong style={{fontWeight:'200',color:'rgb(1,92,173)'}}>ZILLION AAKAR XO </strong> (ZAX)?</h1>
               <p>
                 ZAX is a revolutionary utility token built on the Binance Smart
                 Chain that offers a seamless transaction experience to users.
@@ -126,7 +126,7 @@ const ZaxPrice = () => {
               xs={11}
               className="zerrion_aakar_img"
             >
-              <img src={img5} alt="" className="vert-move" />
+              <img src={img5} alt="wallet" className="vert-move" />
             </Grid>
           </Grid>
         </Container>

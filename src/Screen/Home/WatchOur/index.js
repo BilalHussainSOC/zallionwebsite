@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import img6 from "../../../Image/img6.png";
+import img6 from "../../../Image/UltimateUtilityToken.png";
 import "./index.css";
 
 const WatchOur = () => {
@@ -73,7 +73,7 @@ const WatchOur = () => {
           </Grid>
           <Grid item lg={1} md={1} sm={1}></Grid>
           <Grid item lg={5} md={5} sm={5} xs={12}>
-            <img src={img6} alt="" className="about_zax_img" />
+            <img src={img6} alt=" The Ultimate Utility Token" className="about_zax_img" />
           </Grid>
         </Grid>
       </Container>

@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-import img11 from "../../../Image/img11.png";
+import img11 from "../../../Image/Rectangle 33.png";
 import "./index.css";
 
 const BenefitsZillion = () => {
@@ -28,7 +28,7 @@ const BenefitsZillion = () => {
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
-            <img src={img11} />
+            <img src={img11}  alt='bilal'/>
             <p
                    id='benefits_text'
             >

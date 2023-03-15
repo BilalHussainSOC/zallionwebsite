@@ -1,7 +1,12 @@
 .bg_zax_price {
   background-color: rgb(14, 14, 22);
 }
-
+.bg_two{
+  background-image: url(../../Image/bgimg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: center;
+}
 .zax_price_text {
   margin-top: 50px;
   justify-content: center;

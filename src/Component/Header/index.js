@@ -14,6 +14,8 @@ const Header = () => {
         id="box_shadow_header"
       >
         <div class="container-fluid">
+          <img src={logo} className="logo_img" />
+          <a class="navbar-brand" href="#"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -30,16 +32,19 @@ const Header = () => {
             <Grid container style={{ paddingTop: "10px" }}>
               <Grid item lg={0.3}></Grid>
               <Grid item lg={1.3} md={1.5} sm={1.5} xs={8}>
-                <img src={logo} alt="" className="logo_img" />
+                {/* <img src={logo} alt="" className="logo_img" /> */}
               </Grid>
               <Grid item lg={1.1} md={0.9} sm={1.5} xs={12}>
-           
                 <p
                   style={{ color: "black", cursor: "pointer" }}
-                  id="header_text_resp"
                   onClick={() => navigate("/home")}
                 >
-                  <b>HOME</b>
+                  <a
+                    href="#home"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <b>HOME</b>
+                  </a>
                 </p>
               </Grid>
               <Grid item lg={1.1} md={0.9} sm={1.5} xs={12}>
@@ -59,7 +64,7 @@ const Header = () => {
               <Grid item lg={1.8} md={1.9} sm={2.5} xs={12}>
                 <p style={{ color: "black" }} id="header_text_resp">
                   <a
-                    href="#bit_game"
+                    href="#workDoes"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     <b>HOW IT WORKS</b>
@@ -69,7 +74,7 @@ const Header = () => {
               <Grid item lg={1.7} md={1.6} sm={2.5} xs={12}>
                 <p style={{ color: "black" }} id="header_text_resp">
                   <a
-                    href="#benifts"
+                    href="#tokenomics"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     <b>TOKENOMICS</b>
@@ -89,7 +94,7 @@ const Header = () => {
               <Grid item lg={1.5} md={1.5} sm={2} xs={12}>
                 <p style={{ color: "black" }} id="header_text_resp">
                   <a
-                    href="#raod_map"
+                    href="#road_map"
                     style={{ textDecoration: "none", color: "black" }}
                   >
                     <b>ROAD MAP</b>
@@ -97,7 +102,9 @@ const Header = () => {
                 </p>
               </Grid>
               <Grid item lg={1.5} md={1.5} sm={2} xs={12}>
-                <button class="button"> Buy Zax</button>
+                <a href="#zax_price">
+                  <button class="button"> Buy Zax</button>
+                </a>
               </Grid>
             </Grid>
             {/* </Container> */}

@@ -1,6 +1,6 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import logo from "../../Image/logo.png";
+import logo from "../../Image/zillion AAkar xo.png";
 import facebook from "../../Image/icon/facebook.png";
 import letter from "../../Image/icon/letter.png";
 import linkedin from "../../Image/icon/linkedin.png";
@@ -14,7 +14,7 @@ const Footer = () => {
       <Container>
         <Grid container style={{ justifyContent: "center", marginTop: "50px" }}>
           <Grid item lg={5} md={5} sm={6} xs={12} className="footer_logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="zillion AAkar xo" />
             <p style={{ paddingTop: "20px" }}>
             ZAX is a utility token that breaks through the boundaries between centralized and decentralized platforms. Join us now and become part of the finance revolution.
             </p>

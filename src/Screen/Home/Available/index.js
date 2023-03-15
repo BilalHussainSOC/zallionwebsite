@@ -11,7 +11,7 @@ import icon5 from "../../../Image/icon5.png";
 import icon6 from "../../../Image/icon6.png";
 import icon7 from "../../../Image/icon7.png";
 import icon8 from "../../../Image/icon8.png";
-import icon9 from "../../../Image/icon9.png";
+import icon9 from "../../../Image/probit.png";
 import icon10 from "../../../Image/icon10.png";
 import icon11 from "../../../Image/icon11.png";
 import icon12 from "../../../Image/icon12.png";
@@ -270,7 +270,7 @@ const Avialable = () => {
                 border: "2px solid rgb(0, 153, 255)",
               }}
             >
-              <img src={icon9} alt="" style={{ justifyContent: "center" }} />
+              <img src={icon9} alt="PROBIT" style={{ justifyContent: "center" }} />
             </Grid>
             <Grid
               item

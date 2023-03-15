@@ -4,7 +4,7 @@ import "./index.css";
 
 const RoadMap = () => {
   return (
-    <div>
+    <div id='road_map'>
       <h1
         style={{
           textAlign: "center",
@@ -56,8 +56,8 @@ const RoadMap = () => {
             <li>DEXs/CEXs listing </li>
           </div>
         </Grid>
-        <Grid item lg={0.8} md={0.6}>
-          <StartIcon id="road_map_icon" />
+        <Grid item lg={0.6} md={0.6}>
+          {/* <StartIcon id="road_map_icon" /> */}
         </Grid>
 
         <Grid item lg={2.5} md={3} sm={4} xs={11} className="road_map_child">
@@ -98,8 +98,8 @@ const RoadMap = () => {
             <li>DeFi Staking for FGT token</li>
           </div>
         </Grid>
-        <Grid item lg={0.8} md={0.6}>
-          <StartIcon id="road_map_icon" />
+        <Grid item lg={0.6} md={0.6}>
+          {/* <StartIcon id="road_map_icon" /> */}
         </Grid>
 
         <Grid item lg={2.5} md={3} sm={4} xs={11} className="road_map_child">
@@ -146,8 +146,8 @@ const RoadMap = () => {
             </li>
           </div>
         </Grid>
-        <Grid item lg={0.8} md={0.6}>
-          <StartIcon id="road_map_icon" />
+        <Grid item lg={0.6} md={0.6}>
+          {/* <StartIcon id="road_map_icon" /> */}
         </Grid>
 
         <Grid item lg={2.5} md={3} sm={4} xs={11} className="road_map_child">
@@ -172,8 +172,8 @@ const RoadMap = () => {
             <li>Complete all main features ready for market expansion</li>
           </div>
         </Grid>
-        <Grid item lg={0.8} md={0.6}>
-          <StartIcon id="road_map_icon" />
+        <Grid item lg={0.6} md={0.6}>
+          {/* <StartIcon id="road_map_icon" /> */}
         </Grid>
         <Grid item lg={2.5} md={3} sm={4} xs={11} >
           {/* <p className="raod_map_p">

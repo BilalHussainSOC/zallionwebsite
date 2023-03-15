@@ -1,8 +1,8 @@
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-import img9 from "../../../Image/img9.png";
+import img9 from "../../../Image/zaxtokenomicratiowheel.png";
 import Button from "@mui/material/Button";
-import img10 from "../../../Image/img10.png";
+import img10 from "../../../Image/selltax.png";
 import "./index.css";
 
 const ZaxTokenomic = () => {
@@ -344,7 +344,7 @@ const ZaxTokenomic = () => {
           </Grid>
           <Grid item lg={2} md={1.5} sm={1.5}></Grid>
           <Grid item lg={3.5} md={4} sm={4} xs={12} className="pre_sale_img">
-            <img src={img9} alt="" />
+            <img src={img9} alt="Zax Tokenomic ratio" />
             <h1>Zax Tokenomic</h1>
             <p>
               We value transparency. Here is how we’ll be distributing the funds
@@ -360,7 +360,7 @@ const ZaxTokenomic = () => {
             </p>
             <img
               src={img10}
-              alt=""
+              alt="Sell Tax"
               style={{ marginLeft: "10px", marginBottom: "20px" }}
             />
           </Grid>
